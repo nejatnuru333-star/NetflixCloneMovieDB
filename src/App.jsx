@@ -1,23 +1,20 @@
-import { useState } from 'react'
+import { useState } from "react";
 
-import Header from './Components/Header/Header'
-import Banner from './Components/Banner/Banner'
-import DisplayRow from './Components/DisplayRow/DisplayRow'
-import Footer from './Components/Footer/Footer'
-import "./app.css";
+import Header from "./Components/Header/Header";
+import Banner from "./Components/Banner/Banner";
+import DisplayRow from "./Components/DisplayRow/DisplayRow";
+import Footer from "./Components/Footer/Footer";
+import "./App.css";
 
 function App() {
-
-
   return (
     <>
       <Header />
       <Banner />
       <DisplayRow />
-      <Footer/>
-      
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
